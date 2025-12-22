@@ -5,21 +5,21 @@
 class Agentpane < Formula
   desc "tmux-based environment for managing AI coding agent panes"
   homepage "https://github.com/minghinmatthewlam/agentpane"
-  version "0.1.6"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.6/agentpane_0.1.6_darwin_amd64.tar.gz"
-      sha256 "b7f0b7f962e351ebca1704a749c1372f5a5f943fd1ea53dd9b620f08ad61533f"
+      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.8/agentpane_0.1.8_darwin_amd64.tar.gz"
+      sha256 "562102f1e35e6343828a36727762005a6b22aecb10726ca8e2205cbbdee45f9a"
 
       def install
         bin.install "agentpane"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.6/agentpane_0.1.6_darwin_arm64.tar.gz"
-      sha256 "e1e3c852bf396baee39bf5c252523e6dd1543c00982f30f98b9b7beb641a2f52"
+      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.8/agentpane_0.1.8_darwin_arm64.tar.gz"
+      sha256 "6aa7e897def6b638f117370a820adf68c61e54a8484a0e6a5e4937e15d812fea"
 
       def install
         bin.install "agentpane"
@@ -29,15 +29,15 @@ class Agentpane < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.6/agentpane_0.1.6_linux_amd64.tar.gz"
-      sha256 "96391fa5c2e0679f02f0a12c298a9ea8b544ee2f83daec29bb43e3f44185d58c"
+      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.8/agentpane_0.1.8_linux_amd64.tar.gz"
+      sha256 "5f4c820b7e6cb41d2c9c1e09539f59868b62ff0175e6307600d45e62e7a710bb"
       def install
         bin.install "agentpane"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.6/agentpane_0.1.6_linux_arm64.tar.gz"
-      sha256 "25aa271834ff105cd6c5add3fc817813aeff55cdd20c00bc57fb031b3f298083"
+      url "https://github.com/minghinmatthewlam/agentpane/releases/download/v0.1.8/agentpane_0.1.8_linux_arm64.tar.gz"
+      sha256 "ce28e25540e3f171f5977791ce1c1883334a04472ee26db585575ef5b154b577"
       def install
         bin.install "agentpane"
       end
