@@ -2,10 +2,10 @@
 # frozen_string_literal: true
 
 cask "pi-gui" do
-  version "0.1.0-beta.28"
-  sha256 "9d421988eb8ca1d0749477ae69c8871e38d090a175012fc07a5872903f99a1df"
+  version "0.1.0-beta.29"
+  sha256 "9a22c1c9dc0c0de52c5df7ed0276210ff5e5e4264d25e50b835a24765c233598"
 
-  url "https://github.com/minghinmatthewlam/pi-gui/releases/download/v0.1.0-beta.28/pi-gui-0.1.0-beta.28-arm64.dmg"
+  url "https://github.com/minghinmatthewlam/pi-gui/releases/download/v0.1.0-beta.29/pi-gui-0.1.0-beta.29-arm64.dmg"
   name "pi-gui"
   desc "Codex-style desktop shell for pi"
   homepage "https://github.com/minghinmatthewlam/pi-gui"
